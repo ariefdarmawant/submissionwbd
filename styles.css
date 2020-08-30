@@ -1,0 +1,65 @@
+body {
+  font-family: "Roboto";
+}
+
+.pic{
+  max-width: 150px;
+  height: :auto;
+  margin:0 2%;
+}
+
+.headercontent{
+  display:flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin: 0 6%;
+}
+
+.placeholder{
+  flex-grow: 0.5;
+}
+
+.header{
+  display:flex;
+}
+
+.contentBox{
+  height: 35vh;
+  background-color: blue;
+}
+
+.container{
+  flex: 0 0 75%;
+  padding: 4%;
+  background-color: lightblue;
+}
+
+.btn{
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.active{
+  background-color: lightblue;
+  color: black;
+}
+
+.navbar{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.content{
+  display:flex;
+  height: 60vh;
+}
+
+.checked{
+  color:yellow;
+}
